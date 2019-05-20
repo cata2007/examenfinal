@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+<body>
+<table>
+<th>first_name</th><th>last_name</th><th>number_of_login</th>
+{% for person in persons %}
+    <tr><td>{{person.first_name}}</td> <td>{{person.last_name}}</td><td>{{person.number_of_login}}</td><td>
+{% endfor %}
+</table>
+</body>
+</html>
